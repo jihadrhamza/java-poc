@@ -1,3 +1,5 @@
 2024-09-14 18:55:55,697 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-09-14 19:09:39,724 [Framework stop - Equinox Container: 30a21a21-44bb-4b3a-b868-3eea6a3f7714] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[/Users/jihadhamza/git/java-poc/.git]
 2024-09-14 19:24:33,400 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-14 19:27:27,851 [Worker-14: Push to java-poc refs/heads/master - origin] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2024-09-14 19:27:27,955 [Worker-14: Push to java-poc refs/heads/master - origin] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
