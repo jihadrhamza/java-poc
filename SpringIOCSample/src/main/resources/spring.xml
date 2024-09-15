@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dev" class="com.jrh.ioc.app.Dev" autowire="byType">
+		<property name="age" value="40"></property>
+		<property name="name" value="Jihad"></property>
+		<!-- <constructor-arg name="computer"/>
+		<constructor-arg name="name" value="Sajan"></constructor-arg>
+		<constructor-arg name="age" value="10"></constructor-arg>-->
+
+	</bean>
+
+	<bean id="laptop" class="com.jrh.ioc.app.Laptop">
+		<constructor-arg name="name" value="Lenovo"></constructor-arg>
+	</bean>
+
+	<bean id="computer" class="com.jrh.ioc.app.Desktop" primary="true">
+		<constructor-arg name="name" value="Dell"></constructor-arg>
+	</bean>
+</beans>
