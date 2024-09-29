@@ -3,4 +3,10 @@
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.jrh.ioc.app.Dev"/>
+    <fullyQualifiedTypeName name="com.jrh.ioc.app.Computer"/>
+    <fullyQualifiedTypeName name="com.jrh.ioc.app.Laptop"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.jrh.streams.User"/>
 </qualifiedTypeNameHistroy>
